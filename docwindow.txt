@@ -1,0 +1,20 @@
+DOCUMENT AND WINDOW OBJECTS
+
+In web development, the terms "document" and "window" refer to two distinct objects that play important roles in the functionality of a web page. While both objects are closely related, they have different properties and methods that distinguish them from one another.
+
+The Document Object
+
+The document object is an interface that represents the HTML content of a web page. It is a property of the window object and can be accessed through the window.document property. The document object provides methods for accessing and manipulating the content of the web page, such as adding or removing elements, modifying text, and changing styles. It also provides access to important information about the document, such as its URL, title, and encoding.
+
+The Window Object
+
+The window object, on the other hand, represents the browser window that contains the web page. It is the global object in client-side JavaScript and serves as the entry point for accessing and controlling the browser window. The window object provides methods for opening and closing windows, navigating to different URLs, and interacting with the browser's history. It also provides access to information about the browser and the environment in which the web page is running.
+
+Key Differences
+
+While both the document and window objects are important components of web development, there are several key differences between the two. Some of the main differences include:
+
+The document object represents the content of the web page, while the window object represents the browser window that contains the page.
+The document object provides methods for accessing and manipulating the content of the page, while the window object provides methods for controlling the browser window and environment.
+The document object is a property of the window object and can be accessed through the window.document property.
+In summary, the document and window objects are both important components of web development that serve distinct purposes. Understanding the differences between the two can help developers better utilize these objects to create efficient and functional web pages.
